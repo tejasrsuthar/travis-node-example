@@ -23,7 +23,7 @@ deploy:
     secure: {Insert deploy key here}
   on:
     tags: true
-    repo: tejasrsuthar/travis-test-node-js
+    repo: tejasrsuthar/travis-node-example
     all_branches: true
 
 notifications:
