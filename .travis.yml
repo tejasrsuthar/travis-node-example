@@ -23,13 +23,13 @@ deploy:
     secure: {Insert deploy key here}
   on:
     tags: true
-    repo: ktyacke/travis-node-example
+    repo: tejasrsuthar/travis-test-node-js
     all_branches: true
 
 notifications:
   email:
     recipients:
-      - foo@bar.com
+      - tejas.suthar@flinnt.com
     on_success: always
     on_failure: always
 
